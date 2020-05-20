@@ -6,9 +6,9 @@ Support S3 or Disk Storage as destination
 ### TODO
 
 - [x] Auto resize image before upload
-- [] Auto create thumbnail
-- [] Config width & height for resizing (now only height that supported)
-- [] Add test 
+- [ ] Auto create thumbnail
+- [ ] Config width & height for resizing (now only height that supported)
+- [ ] Add test 
 
 
 ### Installation
