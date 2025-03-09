@@ -1,5 +1,5 @@
-const fs = require('fs')
-const sharp = require('sharp')
+import fs from 'fs'
+import sharp from 'sharp'
 
 function getDestination(req, file, cb) {
   cb(null, '/dev/null')
@@ -79,6 +79,6 @@ MulterSharp.prototype._removeFile = (req, file, cb) => {
   fs.unlink(file.path, cb)
 }
 
-module.exports = (opts) => {
+export default (opts) => {
   return new MulterSharp(opts)
 }
