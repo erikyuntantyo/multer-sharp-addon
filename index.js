@@ -5,11 +5,11 @@ function getDestination(req, file, cb) {
   cb(null, '/dev/null')
 }
 
-function getFilename(req, file, cb) {
+function getFilename (req, file, cb) {
   cb(null, 'filename.ext')
 }
 
-function MulterSharp(opts) {
+function MulterSharp (opts) {
   this.storage = opts.storage
   this.getDestination = opts.destination || getDestination
   this.getFilename = opts.filename || getFilename
@@ -18,7 +18,7 @@ function MulterSharp(opts) {
   this.folder = opts.folder
 }
 
-MulterSharp.prototype._handleFile = function _handleFile(req, file, cb) {
+MulterSharp.prototype._handleFile = function _handleFile (req, file, cb) {
   const resizer = sharp().resize({ width: this.size, fit: 'inside' })
 
   this.getDestination(req, file, (err, path) => {
