@@ -1,5 +1,5 @@
 {
-  "name": "multer-sharp-addon-v1",
+  "name": "@mgg/multer-sharp-addon",
   "version": "1.0.0",
   "description": "Sharp addon for multer",
   "main": "index.js",
