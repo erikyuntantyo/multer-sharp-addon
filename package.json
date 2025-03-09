@@ -1,6 +1,6 @@
 {
   "name": "multer-sharp-addon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sharp addon for multer",
   "main": "index.js",
   "author": "Achmad Apriady<achmad.apriady@gmail.com>",
