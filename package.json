@@ -1,6 +1,6 @@
 {
   "name": "@multigunagemilang/multer-sharp-addon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sharp addon for multer",
   "main": "index.js",
   "author": "Achmad Apriady<achmad.apriady@gmail.com>",
@@ -13,6 +13,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "sharp": "^0.33.5"
+    "sharp": "^0.32.6"
   }
 }
